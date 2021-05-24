@@ -1,0 +1,33 @@
+@import "navigation";
+@import "variables";
+
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 40px;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  color: $secondary-color
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: $secondary-color;
+  font-size: 20px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.pics:hover{
+  box-shadow: 3px 4px 9px black;
+  transition: all 1000ms;
+}
+
+
+
